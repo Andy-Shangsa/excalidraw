@@ -214,7 +214,7 @@
                 (s.timeout = 120),
                 i.nc && s.setAttribute("nonce", i.nc),
                 (s.src = (function (n) {
-                  var affix = i.p.indexOf('excalidraw') > -1 ? 'static/js/' : 'excalidraw/static/js/'
+                  var affix = n <= 2 || n >= 46 ? 'static/js/' : 'excalidraw/static/js/'
                   return (
                     i.p +
                     affix +
