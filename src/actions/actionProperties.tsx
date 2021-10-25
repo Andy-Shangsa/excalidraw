@@ -12,6 +12,7 @@ import {
   FillCrossHatchIcon,
   FillHachureIcon,
   FillSolidIcon,
+  FontFamilyChineseIcon,
   FontFamilyCodeIcon,
   FontFamilyHandDrawnIcon,
   FontFamilyNormalIcon,
@@ -507,6 +508,11 @@ export const actionChangeFontFamily = register({
       text: string;
       icon: JSX.Element;
     }[] = [
+      {
+        value: FONT_FAMILY.Chinese,
+        text: "中文手写",
+        icon: <FontFamilyChineseIcon theme={appState.theme} />,
+      },
       {
         value: FONT_FAMILY.Virgil,
         text: t("labels.handDrawn"),
