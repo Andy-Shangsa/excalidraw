@@ -1994,13 +1994,13 @@
     "@sentry/utils" "6.2.5"
     tslib "^1.9.3"
 
-"@sentry/integrations@6.2.5":
-  version "6.2.5"
-  resolved "https://registry.npmmirror.com/@sentry/integrations/download/@sentry/integrations-6.2.5.tgz?cache=0&sync_timestamp=1633534704105&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40sentry%2Fintegrations%2Fdownload%2F%40sentry%2Fintegrations-6.2.5.tgz#37cac11b486779707d62751da36aaaefbb44951a"
-  integrity sha1-N8rBG0hneXB9YnUdo2qq77tElRo=
+"@sentry/integrations@6.18.0":
+  version "6.18.0"
+  resolved "https://registry.yarnpkg.com/@sentry/integrations/-/integrations-6.18.0.tgz#e4f84e463c1de452f1be80b4a86e90618d2c38c6"
+  integrity sha512-Qd7UQPZcCIAgTJu790TIzNDdP6ylYSxL8REfkgU5u1zl03JB/1WvDsG/OTgN+ptHnIK8g4BxY4JhqyGzqsJzxg==
   dependencies:
-    "@sentry/types" "6.2.5"
-    "@sentry/utils" "6.2.5"
+    "@sentry/types" "6.18.0"
+    "@sentry/utils" "6.18.0"
     localforage "^1.8.1"
     tslib "^1.9.3"
 
@@ -2013,10 +2013,23 @@
     "@sentry/types" "6.2.5"
     tslib "^1.9.3"
 
+"@sentry/types@6.18.0":
+  version "6.18.0"
+  resolved "https://registry.yarnpkg.com/@sentry/types/-/types-6.18.0.tgz#89cee850d16c88621459d9f2a7f6cff9e9d3fb5f"
+  integrity sha512-SypDwXL1URE/XLkP4Ve+pFs41e+2OUYZ0lCimNreQQv46//pFXxP3LwU9Tc0Az4ZfxXnGiwofvt73XyBq9VpRQ==
+
 "@sentry/types@6.2.5":
   version "6.2.5"
   resolved "https://registry.npmmirror.com/@sentry/types/download/@sentry/types-6.2.5.tgz?cache=0&sync_timestamp=1633534248848&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40sentry%2Ftypes%2Fdownload%2F%40sentry%2Ftypes-6.2.5.tgz#34b75285b149e0b9bc5fd54fcc2c445d978c7f2e"
   integrity sha1-NLdShbFJ4Lm8X9VPzCxEXZeMfy4=
+
+"@sentry/utils@6.18.0":
+  version "6.18.0"
+  resolved "https://registry.yarnpkg.com/@sentry/utils/-/utils-6.18.0.tgz#99ad577020a269e43629feb6305c121065c992d1"
+  integrity sha512-mKegOabkAjoUHfokjI5oi3CMez5GD3xXOrBFcLVc9GFDXCgNMdYnHyEn/mmy8PikFdGHxZ3oI/16ZGU22wi5aw==
+  dependencies:
+    "@sentry/types" "6.18.0"
+    tslib "^1.9.3"
 
 "@sentry/utils@6.2.5":
   version "6.2.5"
@@ -14715,10 +14728,8 @@ watchpack@^1.7.4:
   resolved "https://registry.nlark.com/watchpack/download/watchpack-1.7.5.tgz#1267e6c55e0b9b5be44c2023aed5437a2c26c453"
   integrity sha1-EmfmxV4Lm1vkTCAjrtVDeiwmxFM=
   dependencies:
-    chokidar "^3.4.1"
     graceful-fs "^4.1.2"
     neo-async "^2.5.0"
-    watchpack-chokidar2 "^2.0.1"
   optionalDependencies:
     chokidar "^3.4.1"
     watchpack-chokidar2 "^2.0.1"
