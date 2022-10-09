@@ -2199,10 +2199,10 @@
     "@babel/runtime" "^7.12.5"
     "@testing-library/dom" "^7.28.1"
 
-"@tldraw/vec@0.0.106":
-  version "0.0.106"
-  resolved "https://registry.npmmirror.com/@tldraw/vec/download/@tldraw/vec-0.0.106.tgz#34936176b314c7779a3ad897a07be7434cdbc655"
-  integrity sha1-NJNhdrMUx3eaOtiXoHvnQ0zbxlU=
+"@tldraw/vec@1.8.0":
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/@tldraw/vec/-/vec-1.8.0.tgz#4eea7e4ff4c4067ac0e966d4d5bdab5f90d53a34"
+  integrity sha512-GiS5Df3CzXY/fPBFcM0CKFERZfI4Cg1X33VPZX+NLo7Fwm/h9zu/aU24N1mG75Q9LuMnwKm7woxKr8BiUXGYCg==
 
 "@tootallnate/once@1":
   version "1.1.2"
@@ -14715,10 +14715,8 @@ watchpack@^1.7.4:
   resolved "https://registry.nlark.com/watchpack/download/watchpack-1.7.5.tgz#1267e6c55e0b9b5be44c2023aed5437a2c26c453"
   integrity sha1-EmfmxV4Lm1vkTCAjrtVDeiwmxFM=
   dependencies:
-    chokidar "^3.4.1"
     graceful-fs "^4.1.2"
     neo-async "^2.5.0"
-    watchpack-chokidar2 "^2.0.1"
   optionalDependencies:
     chokidar "^3.4.1"
     watchpack-chokidar2 "^2.0.1"
