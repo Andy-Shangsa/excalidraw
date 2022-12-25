@@ -1994,13 +1994,13 @@
     "@sentry/utils" "6.2.5"
     tslib "^1.9.3"
 
-"@sentry/integrations@6.2.5":
-  version "6.2.5"
-  resolved "https://registry.npmmirror.com/@sentry/integrations/download/@sentry/integrations-6.2.5.tgz?cache=0&sync_timestamp=1633534704105&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40sentry%2Fintegrations%2Fdownload%2F%40sentry%2Fintegrations-6.2.5.tgz#37cac11b486779707d62751da36aaaefbb44951a"
-  integrity sha1-N8rBG0hneXB9YnUdo2qq77tElRo=
+"@sentry/integrations@7.28.1":
+  version "7.28.1"
+  resolved "https://registry.yarnpkg.com/@sentry/integrations/-/integrations-7.28.1.tgz#f0cba627b9ed03f1a54d91385126019f332a575d"
+  integrity sha512-opeXVR1L9mZmZcpAs9kX+4JPY7pXhVupy17Sbz+43zd5CshYTveIcttGNPp+EPT3j7mMU+1TMAYZspKqJXtEBQ==
   dependencies:
-    "@sentry/types" "6.2.5"
-    "@sentry/utils" "6.2.5"
+    "@sentry/types" "7.28.1"
+    "@sentry/utils" "7.28.1"
     localforage "^1.8.1"
     tslib "^1.9.3"
 
@@ -2018,12 +2018,25 @@
   resolved "https://registry.npmmirror.com/@sentry/types/download/@sentry/types-6.2.5.tgz?cache=0&sync_timestamp=1633534248848&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40sentry%2Ftypes%2Fdownload%2F%40sentry%2Ftypes-6.2.5.tgz#34b75285b149e0b9bc5fd54fcc2c445d978c7f2e"
   integrity sha1-NLdShbFJ4Lm8X9VPzCxEXZeMfy4=
 
+"@sentry/types@7.28.1":
+  version "7.28.1"
+  resolved "https://registry.yarnpkg.com/@sentry/types/-/types-7.28.1.tgz#9018b4c152b475de9bedd267237393d3c9b1253d"
+  integrity sha512-DvSplMVrVEmOzR2M161V5+B8Up3vR71xMqJOpWTzE9TqtFJRGPtqT/5OBsNJJw1+/j2ssMcnKwbEo9Q2EGeS6g==
+
 "@sentry/utils@6.2.5":
   version "6.2.5"
   resolved "https://registry.npmmirror.com/@sentry/utils/download/@sentry/utils-6.2.5.tgz?cache=0&sync_timestamp=1633534248185&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40sentry%2Futils%2Fdownload%2F%40sentry%2Futils-6.2.5.tgz#be90d056b09ed1216097d7a29e3e81ba39238e1b"
   integrity sha1-vpDQVrCe0SFgl9einj6Bujkjjhs=
   dependencies:
     "@sentry/types" "6.2.5"
+    tslib "^1.9.3"
+
+"@sentry/utils@7.28.1":
+  version "7.28.1"
+  resolved "https://registry.yarnpkg.com/@sentry/utils/-/utils-7.28.1.tgz#0a7b6aa4b09e91e4d1aded2a8c8dbaf818cee96e"
+  integrity sha512-75/jzLUO9HH09iC9TslNimGbxOP3jgn89P+q7uR+rp2fJfRExHVeKJZQdK0Ij4/SmE7TJ3Uh2r154N0INZEx1g==
+  dependencies:
+    "@sentry/types" "7.28.1"
     tslib "^1.9.3"
 
 "@sindresorhus/is@^0.14.0":
@@ -14715,10 +14728,8 @@ watchpack@^1.7.4:
   resolved "https://registry.nlark.com/watchpack/download/watchpack-1.7.5.tgz#1267e6c55e0b9b5be44c2023aed5437a2c26c453"
   integrity sha1-EmfmxV4Lm1vkTCAjrtVDeiwmxFM=
   dependencies:
-    chokidar "^3.4.1"
     graceful-fs "^4.1.2"
     neo-async "^2.5.0"
-    watchpack-chokidar2 "^2.0.1"
   optionalDependencies:
     chokidar "^3.4.1"
     watchpack-chokidar2 "^2.0.1"
